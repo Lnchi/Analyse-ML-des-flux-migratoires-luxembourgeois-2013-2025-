@@ -1,0 +1,32 @@
+# Collecte de données
+eurostat>=1.0.0
+
+# Séries temporelles
+prophet==1.1.5
+pmdarima==2.0.4
+statsmodels>=0.14.2,<0.15
+
+# Machine Learning
+scikit-learn>=1.5,<1.6
+xgboost>=2.1,<2.2
+gapstatistics==0.1.5
+
+# Data manipulation
+numpy>=1.26,<2.0
+pandas>=2.2,<2.3
+scipy>=1.13,<1.14
+pyarrow>=17,<18
+
+# Visualisation
+matplotlib>=3.9.2,<3.10
+seaborn>=0.13,<0.14
+plotly>=5.23,<6
+kaleido==0.2.1
+
+# Divers
+tabulate>=0.9
+python-dotenv>=1.0.0
+cmdstanpy==1.2.4
+# Notebook
+jupyter>=1.0
+ipykernel>=6.29

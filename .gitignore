@@ -1,0 +1,30 @@
+# indiquer à Git quels fichiers ne doivent pas être ajoutés au suivi. 
+# Cela évite d'envoyer le .env ou le dossier node_modules
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Données et cache (peuvent être volumineuses / régénérées)
+data/cache/*.parquet
+!data/cache/.gitkeep
+
+# Figures générées
+outputs/figures/*.png
+!outputs/figures/.gitkeep
+
+# Config locale
+.env
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS
+# Fichiers système et éditeur
+.DS_Store
+Thumbs.db
