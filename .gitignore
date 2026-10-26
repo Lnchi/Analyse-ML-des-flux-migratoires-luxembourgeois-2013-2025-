@@ -12,6 +12,10 @@ __pycache__/
 data/cache/*.parquet
 !data/cache/.gitkeep
 
+notebooks/*.ipynb
+main_v1.py
+README_v1.md
+
 # Figures générées
 outputs/figures/*.png
 !outputs/figures/.gitkeep
